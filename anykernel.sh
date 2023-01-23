@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=KCUFKernel-V1
+kernel.string=SRyzenKernel-4.19
 do.devicecheck=1
 do.modules=0
 do.systemless=1
