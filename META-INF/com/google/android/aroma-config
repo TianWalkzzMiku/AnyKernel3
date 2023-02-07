@@ -1,21 +1,21 @@
 ini_set("kernel_name",             "SRyzenKernel");
-ini_set("kernel_version",          "beta");
-ini_set("kernel_author",           "TiannZ");
+ini_set("kernel_version",          "stable");
+ini_set("kernel_author",           "@TianWalkzzMiku");
 ini_set("kernel_device",           "WhyRed");
 ini_set("kernel_date",             "January, 23 2023");
 
 anisplash(
     1,
-    "splash/kcuf-1", 100,
-    "splash/kcuf-2", 100,
-    "splash/kcuf-3", 100,
-    "splash/kcuf-4", 100,
-    "splash/kcuf-5", 100,
-    "splash/kcuf-6", 100,
-    "splash/kcuf-7", 100,
-    "splash/kcuf-8", 100,
-    "splash/kcuf-9", 100,
-    "splash/kcuf-10", 500
+    "splash/sryzen-1", 100,
+    "splash/sryzen-2", 100,
+    "splash/sryzen-3", 100,
+    "splash/sryzen-4", 100,
+    "splash/sryzen-5", 100,
+    "splash/sryzen-6", 100,
+    "splash/sryzen-7", 100,
+    "splash/sryzen-8", 100,
+    "splash/sryzen-9", 100,
+    "splash/sryzen-10", 500
 );
 
 theme("default");
