@@ -25,7 +25,7 @@ fontresload("1", "ttf/Roboto-Regular.ttf", "16");
 # STEP 2 - SHOW KERNEL INFORMATION
 viewbox(
     #-- Get Config Value
-    "KCUFKernel Installer\n",
+    "SRyzenKernel Installer\n",
     "<@center>You are about to Install " + "<b>" + ini_get("kernel_name") + "</b>\n\n</@>" +
     "Version\t\t: "       + "<b>" + ini_get("kernel_version") + "</b>\n" +
     "Developed By\t: "    + "<b>" + ini_get("kernel_author") + "</b>\n" +
@@ -65,8 +65,8 @@ selectbox(
     "CPU Overclock\n",
     "<@center><b>Select if you want CPU overclock upto 2.2G.</b>\n\n</@>","@install",
     "cpu_overclock.prop",
-    "Keep Stock", "", 1,
-    "Enable 2.2 Ghz", "", 0
+    "1,8ghz (stock)", "", 1,
+    "2.2 Ghz (OverClock", "", 0
 );
 
 # Next Button is "Next"
@@ -103,7 +103,7 @@ checkviewbox(
     "Installation Completed",
   
   #-- Text
-    "<#selectbg_g><b>Congratulation...</b></#>\n\n" +
+    "<#selectbg_g><b>Congratulation...The Kernel Installed on your device</b></#>\n\n" +
     "<b>" + ini_get("kernel_name") + "</b> has been installed into your device.\n\n"+
     "Installer Status: " + getvar("retstatus") + "\n\n",
 	
