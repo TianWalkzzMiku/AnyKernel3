@@ -52,8 +52,8 @@ selectbox(
     "Camera Blobs\n",
     "<@center><b>Select if your rom has OLD or NEW Camera Blobs.</b>\n\n</@>","@install",
     "blobs_newcam.prop",
-    "Old Camera Blobs", "", 1,
-    "New Camera Blobs", "", 0
+    "OldCam Blobs", "", 1,
+    "NewCam Blobs", "", 0
 );
 
 # Next Button is "Install"
@@ -77,7 +77,7 @@ ini_set("icon_next", "@next");
 setvar("retstatus",
   install(
 	#-- Title
-      "Installing",
+      "Installing....Please Wait!",
 	
 	#-- Installation Process message
 	  "<b>" + ini_get("kernel_name") + "</b> is being installed.\n\n\n" +
@@ -88,7 +88,7 @@ setvar("retstatus",
       "@install",
 	
 	#-- Installation Finish Message
-      "The installation wizard has successfully installed <b>" + ini_get("kernel_name") +
+      "The installation has successfully installed <b>" + ini_get("kernel_name") +
 	  "</b>. Press Next to continue."
   )
 );
