@@ -1,8 +1,7 @@
 ini_set("kernel_name",             "SRyzenKernel");
-ini_set("kernel_version",          "stable");
+ini_set("kernel_version",          "v1");
 ini_set("kernel_author",           "@TianWalkzzMiku");
 ini_set("kernel_device",           "WhyRed");
-ini_set("kernel_date",             "January, 23 2023");
 
 anisplash(
     1,
